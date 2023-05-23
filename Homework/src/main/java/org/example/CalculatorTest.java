@@ -9,11 +9,11 @@ public class CalculatorTest {
 
     @ParameterizedTest
     @CsvSource({
-            "20, 2, 10",
-            "15, 5, 3",
-            "10, 4, 2.5",
-            "30, 2.5, 12",
-            "45, 2.5, 18"
+            "70, 5, 14",
+            "24, 6, 4",
+            "14, 2, 7",
+            "40, 2.5, 16",
+            "56, 7, 8"
     })
     void testDivision(double dividend, double divisor, double expectedQuotient) {
         Calculator calculator = new Calculator();
